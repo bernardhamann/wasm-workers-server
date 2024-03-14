@@ -13,7 +13,7 @@ const reply = (request) => {
   // Body response
   const body = `<!DOCTYPE html>
 <head>
-  <title>Wasm Workers Server !!</title>
+  <title>Wasm Workers Server</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
@@ -29,7 +29,7 @@ const reply = (request) => {
 </head>
 <body>
   <main>
-    <h1>Hello from Wasm Workers Server 👋</h1>
+    <h1>Hello from Wasm Workers Server 👋 ⛰️</h1>
     <pre><code>Replying to ${request.url}
 Method: ${request.method}
 User Agent: ${request.headers.get("user-agent")}
