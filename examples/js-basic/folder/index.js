@@ -29,7 +29,7 @@ const reply = (request) => {
 </head>
 <body>
   <main>
-    <h1>Hello from Wasm Workers Server 👋 ⛰️</h1>
+    <h1>Hello from Wasm Workers Server in folder 👋 ⛰️</h1>
     <pre><code>Replying to ${request.url}
 Method: ${request.method}
 User Agent: ${request.headers.get("user-agent")}
